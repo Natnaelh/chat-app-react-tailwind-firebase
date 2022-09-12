@@ -1,4 +1,7 @@
 import React from "react";
+import { auth } from "../firebase";
+import { useAuthState } from "react-firebase-hooks/auth";
+import SignIn from "./Signin";
 
 const style = {
   nav: `bg-gray-800 h-20 flex justify-between items-center p-4`,
@@ -9,6 +12,7 @@ function Navbar() {
   return (
     <div className={style.nav}>
       <h1 className={style.heading}>Chat App</h1>
+      <SignIn />
     </div>
   );
 }

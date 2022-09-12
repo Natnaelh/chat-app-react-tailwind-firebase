@@ -8,8 +8,6 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 
-dotenv.config();
-
 const firebaseConfig = {
   apiKey: "AIzaSyC3sri2pG06vJUbHIQRkTg7UcqoWPUog4s",
   authDomain: "chat-app-d0123.firebaseapp.com",
