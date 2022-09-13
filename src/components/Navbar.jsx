@@ -13,7 +13,7 @@ function Navbar() {
   const [user] = useAuthState(auth);
   return (
     <div className={style.nav}>
-      <h1 className={style.heading}>Chat App</h1>
+      <h1 className={style.heading}>DoveGram</h1>
       {user ? <Logout /> : <SignIn />}
     </div>
   );
